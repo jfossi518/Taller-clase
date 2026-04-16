@@ -13,3 +13,6 @@ const ClasificaciónDeRiesgo5 = "Maximo"
 
 //Operaciones//
 let totalDevengado = salario + comisiones + horasExtra;
+let IBC = TotalDevengado * 0.7; 
+let auxilioTransporte = 0; 
+if (salario = salariominimolegalvigente * 2) (auxilioTransporte = subsidiodeTransporte; 
