@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Nómina 2026</title>
+</head>
+<body>
 
+  <form action="" method="post" id="formularioNomina">
+
+    <fieldset>
+      <legend>Datos Personales</legend>
+
+      <label for="nombreCompleto">Nombre completo:</label>
+      <input type="text" id="nombreCompleto" name="nombreCompleto" />
+
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" />
+
+      <label for="tipoDocumento">Tipo de documento:</label>
+      <select id="tipoDocumento" name="tipoDocumento">
+        <option value="RC">RC - Registro Civil</option>
+        <option value="TI">TI - Tarjeta de Identidad</option>
+        <option value="CC">CC - Cédula de Ciudadanía</option>
+      </select>
+
+      <label for="numeroDocumento">Número de documento:</label>
+      <input type="text" id="numeroDocumento" name="numeroDocumento" />
+    </fieldset>
+
+    <fieldset>
+      <legend>Datos Laborales</legend>
+
+      <label for="salario">Salario base:</label>
+      <input type="number" id="salario" name="salario" />
+
+      <label for="comisiones">Comisiones:</label>
+      <input type="number" id="comisiones" name="comisiones" value="0" />
+
+      <label for="horasExtra">Horas extra (valor total):</label>
+      <input type="number" id="horasExtra" name="horasExtra" value="0" />
+
+      <label for="nivelRiesgo">Nivel de riesgo ARL:</label>
+      <select id="nivelRiesgo" name="nivelRiesgo">
+        <option value="1">Riesgo 1 - Mínimo</option>
+        <option value="2">Riesgo 2 - Bajo</option>
+        <option value="3">Riesgo 3 - Medio</option>
+        <option value="4">Riesgo 4 - Alto</option>
+        <option value="5">Ries
+          .go 5 - Máximo</option>
+      </select>
+    </fieldset>
+
+    <input type="submit" value="Calcular Nómina" />
+
+  </form>
+
+</body>
+</html>
